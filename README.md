@@ -12,7 +12,7 @@ Unterlagen für den Coding Club bei IKS GmbH
    2. `python -m venv .venv/`
    3. Virtual Environment aktivieren
       1. `.venv/Scripts/activate` (Windows-Kommandozeile)
-      2. `source .venv/Scripts/activate` (Git-bash o.ä. Bash-Kommandozeilen)
+      2. `source .venv/bin/activate` (Git-bash o.ä. Bash-Kommandozeilen)
    4. Überprüfen ob Virtual Environment korrekt aktiviert wurde
       1. `where python` -> Ausgabe sollte Pfad zum Interpreter in `.venv/..` zeigen
 3. Paketabhängigkeiten installieren
