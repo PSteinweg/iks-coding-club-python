@@ -1,0 +1,17 @@
+# https://snarky.ca/what-the-heck-is-pyproject-toml/
+# mypy: static type checker - https://mypy-lang.org/
+[tool.mypy]
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+ignore_missing_imports_per_module = true
+
+
+# black: Code Formatter - https://github.com/psf/black
+[tool.black]
+line-length = 100
+
+
+# pylint: Python Linter - https://pypi.org/project/pylint/
+#[tool.pylint]

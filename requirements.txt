@@ -26,6 +26,7 @@ et-xmlfile==1.1.0
 executing==1.2.0
 fastjsonschema==2.16.2
 filelock==3.8.0
+flake8==6.0.0
 fonttools==4.38.0
 humanize==4.4.0
 idna==3.4
@@ -48,7 +49,10 @@ kiwisolver==1.4.4
 MarkupSafe==2.1.1
 matplotlib==3.6.2
 matplotlib-inline==0.1.6
+mccabe==0.7.0
 mistune==2.0.4
+mypy==1.1.1
+mypy-extensions==1.0.0
 nbclassic==0.4.8
 nbclient==0.7.0
 nbconvert==7.2.3
@@ -70,13 +74,16 @@ prometheus-client==0.15.0
 prompt-toolkit==3.0.32
 psutil==5.9.4
 pure-eval==0.2.2
+pycodestyle==2.10.0
 pycparser==2.21
+pyflakes==3.0.1
 Pygments==2.13.0
 pyparsing==3.0.9
 pyrsistent==0.19.2
 python-dateutil==2.8.2
 python-slugify==6.1.2
 pytz==2022.6
+pywinpty==2.0.9
 PyYAML==6.0
 pyzmq==24.0.1
 qtconsole==5.4.0
@@ -95,6 +102,9 @@ text-unidecode==1.3
 tinycss2==1.2.1
 tornado==6.2
 traitlets==5.5.0
+types-beautifulsoup4==4.11.6.7
+types-html5lib==1.1.11.12
+typing_extensions==4.5.0
 urllib3==1.26.12
 virtualenv==20.16.7
 virtualenv-clone==0.5.7
